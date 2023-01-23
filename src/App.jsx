@@ -30,7 +30,7 @@ function App() {
       <p>Ej Sadiarin Vite + React JS App</p>
       <p>created January 23, 2023 10:07 PM</p>
       <p>Happy Birthday to me LESGOWW!!!!!!!</p>
-      <p>A start LESGOWW!</p>
+      <p>A start LESGOWW TOP G MODE FOREVER</p>
     </div>
   )
 }
