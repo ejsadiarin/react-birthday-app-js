@@ -33,8 +33,18 @@ function App() {
       <p>created January 23, 2023 10:07 PM</p>
       <p>Happy Birthday to me LESGOWW!!!!!!!</p>
       <p>A start LESGOWW TOP G MODE FOREVER</p>
+      <Activate />
     </div>
   )
+}
+
+function Activate() {
+  return (
+    <>
+      <h1>My First React Component</h1>
+      <p>@ February 6, 2023 9:21 PM</p>
+    </>
+  );
 }
 
 export default App
