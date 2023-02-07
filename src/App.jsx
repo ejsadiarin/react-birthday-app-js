@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import { Test } from './test.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,8 @@ function App() {
       <p>Happy Birthday to me LESGOWW!!!!!!!</p>
       <p>A start LESGOWW TOP G MODE FOREVER</p>
       <Activate />
+
+      <Test />
     </div>
   )
 }
