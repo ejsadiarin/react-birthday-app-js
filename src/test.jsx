@@ -1,12 +1,6 @@
-// named 
-export function Test() {
-    return (
-        <>
-            <h1>Test h1</h1>
-        </>
-    );
-}
+// Test React Components
 
+// Date display component
 const today = new Date();
 
 function formatDate(date) {
@@ -16,10 +10,21 @@ function formatDate(date) {
     ).format(date);
 }
 
-export default function TestDate() {
+export function TestDate() {
     return (
         <>
             <h2>The date is {formatDate(today)}</h2>
         </>
     )
+}
+
+
+export default function Test() {
+    return (
+        <>
+            <h1>Test h1</h1>
+            <TestDate />
+              
+        </>
+    );
 }
